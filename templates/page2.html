@@ -1,0 +1,14 @@
+{% extends "layout.html"%}
+{% set active_page = "index" %}
+ {%block title%}index{%endblock%} 
+    
+    <!--page content-->
+	{%block content%}
+    <form action='/response2'>
+     Pounds to Kg<br>
+      <input type="text" name="pounds">
+      <br><br>
+      <input type="submit">
+    </form>
+
+	 {%endblock%}

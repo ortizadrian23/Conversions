@@ -1,0 +1,14 @@
+{% extends "layout.html"%}
+{% set active_page = "index" %}
+ {%block title%}index{%endblock%} 
+    
+    <!--page content-->
+	{%block content%}
+    <form action='/response'>
+      BitCoin to USD<br>
+      <input type="text" name="BitCoin">
+      <br><br>
+      <input type="submit">
+    </form>
+
+	 {%endblock%}

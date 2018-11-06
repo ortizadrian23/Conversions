@@ -1,0 +1,14 @@
+{% extends "layout.html"%}
+{% set active_page = "index" %}
+ {%block title%}index{%endblock%} 
+    
+    <!--page content-->
+	<!-- python -m webpage -->
+	{%block content%}
+    <form action='/response1'>
+      Kilometer to Yards<br>
+      <input type="text" name="Kilometer">
+      <br><br>
+      <input type="submit">
+    </form>	
+	{%endblock%}
